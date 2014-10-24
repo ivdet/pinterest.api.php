@@ -10,7 +10,7 @@
             "name": "Natalia Plawska",
             "email": "ivdet386@gmail.com",
             "homepage": "https://www.facebook.com/nplawska"
-        },        
+        }
     ],
     "require": {
         "php": ">=5.3.3",
