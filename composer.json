@@ -1,6 +1,6 @@
 {
     "name": "ivdet/pinterest-api",
-    "description": "Simply connect to the Pinterest API v3 using PHP and cURL. Fork from kellan/pinterest.api.php https://github.com/kellan/pinterest.api.php ",
+    "description": "Simply connect to the Pinterest API v3 using PHP and cURL. Fork from kellan/pinterest.api.php [https://github.com/kellan/pinterest.api.php]",
     "keywords": ["pinterest","api"],
     "homepage": "http://github.com/ivdet/pinterest.api.php",
     "type": "library",
