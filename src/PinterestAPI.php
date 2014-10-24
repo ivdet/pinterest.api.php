@@ -1,12 +1,12 @@
 <?php
 namespace Pinterest {
-    class Pinterest_API
+    class PinterestAPI
     {
         const REQUIRED = 'arg is required';
         var $base_url;
         var $access_token;
 
-        function __construct($access_token = '')
+        function __construct($access_token = '') 
         {
             $this->base_url = 'https://api.pinterest.com/v3';
             $this->access_token = $access_token;
