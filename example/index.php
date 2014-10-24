@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-require_once('../src/Pinterest/PinterestAPI.php');
+require_once('../src/PinterestAPI.php');
 
 
 $client_id = 'YOUR_PINTEREST_APP_CLIENT_ID';
