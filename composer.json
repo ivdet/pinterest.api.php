@@ -1,0 +1,25 @@
+{
+    "name": "ivdet/pinterest-api",
+    "description": "Simply connect to the Pinterest API v3 using PHP and cURL. Fork from kellan/pinterest.api.php https://github.com/kellan/pinterest.api.php ",
+    "keywords": ["pinterest","api"],
+    "homepage": "http://github.com/ivdet/network_api_php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Natalia P³awska,
+            "email": "ivdet386@gmail.com",
+            "homepage": "https://www.facebook.com/nplawska"
+        },        
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*"
+    },
+    "autoload": {
+        "psr-4": {"Pinterest\\": "src/"}
+    }
+}

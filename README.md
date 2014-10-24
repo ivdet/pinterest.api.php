@@ -1,4 +1,4 @@
-basic bindings for Pinterest API.
+basic bindings for Pinterest API v3.
 
 _This is an unofficial API, and likely to change and break at any moment._
 
