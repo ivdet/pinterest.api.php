@@ -6,7 +6,7 @@ _This is an unofficial API, and likely to change and break at any moment._
 
 You'll need an access token to make API calls.  This is accomplished with an XAuth-like call using HTTP Basic Auth over SSL.
 
-    $p = new Pinterest_API();
+    $p = new PinterestAPI();
     $p->fetch_access_token($client_id, $client_secret, $username, $password);
     $resp = $p->some_api_call($args);
 

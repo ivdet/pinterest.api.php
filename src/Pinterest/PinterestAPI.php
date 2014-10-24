@@ -1,6 +1,6 @@
 <?php
 
-    class Pinterest_API {
+    class PinterestAPI {
         
         var $base_url;
         var $access_token;
