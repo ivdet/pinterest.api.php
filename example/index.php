@@ -4,7 +4,6 @@ ini_set('display_errors', 1);
 
 require_once('../src/Pinterest/PinterestAPI.php');
 
-$renderPin = function($pin){echo '<div><h4>' . $pin['description'] . '</h4>'; foreach($pin['images'] as $image) echo '<img src="' . $image['url'] . '" width="' . $image['width'] . '" height="' . $image['height'] . '" alt ="' . $pin['description'] . '"></div>';};
 
 $client_id = 'YOUR_PINTEREST_APP_CLIENT_ID';
 $client_secret = 'YOUR_PINTEREST_APP_CLIENT_SECRET';
@@ -17,6 +16,8 @@ $resp = json_decode($p->allByUser($username),1);
 
 if($resp['status'] == "success")
 {
+	$renderPin = function($pin){echo '<div><h4>' . $pin['description'] . '</h4>'; foreach($pin['images'] as $image) echo '<img src="' . $image['url'] . '" width="' . $image['width'] . '" height="' . $image['height'] . '" alt ="' . $pin['description'] . '"></div>';};
+
 	foreach($resp['data']['pins'] as $pin)	
 		$renderPin($pin);
 }
