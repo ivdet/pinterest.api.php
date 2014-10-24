@@ -10,6 +10,8 @@ You'll need an access token to make API calls.  This is accomplished with an XAu
     $p->fetch_access_token($client_id, $client_secret, $username, $password);
     $resp = $p->some_api_call($args);
 
+See the demo example/index.php to try.
+	
 Alternately if you already have an access token
  
     $p = new Pinterest_API($access_token);
